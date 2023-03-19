@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1E1E1E;;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    list-style-type: none; 
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar_logoText{
+    width: 165px;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+
+.navbar_links{
+    height: 19px;
+}
+
+.navbar_linksList{
+    display: flex;
+    margin: 0;
+}
+
+.navbar_linksItem{
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    cursor: pointer;
+}
+
+.navbar_contacts{
+    display: flex;
+    margin-left: auto;
+    height: 19px;
+}
+
+.navbar_contacts .navbar_phone{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: #E4E5EA;
+    margin: 0;
+    margin-right: 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.navbar_contacts .navbar_iconWrapper{
+    height: 19px;
+}
+
+.navbar_contacts .icon{
+    height: 19px;
+    width: auto;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    margin-top: 95px;
+    margin-bottom: 120px;
+}
+
+.main_intro{
+    width: 362px;
+
+}
+
+.main_introText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+    margin-top: 0;
+    margin: 0;
+}
+
+.main_introTextLogo{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main_introSmallText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+    width: 275px;
+}
+
+
+
+.main_options{
+    margin-left: auto;
+}
+
+.main_optionsIntro{
+    width: 320px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.main_optionsIntroWhiteText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.main_optionBlocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 320px;
+    margin-bottom: 60px;
+}
+
+.main_optionBlock{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}   
+
+.main_optionBlocks_mobile, .main_optionBlock_mobile, .main_optionBlock_intro_mobile{
+    display: none;
+}
+
+.main_optionBlock_intro{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}
+
+.main_optionBlock_details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    
+}
+
+.main_button{
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    margin-left: 58px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.main_button p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 61px;
+    text-align: center;
+    color: #E4E5EA;
+}
+
+.iridescentText{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    height: 270px;
+}
+
+.footer_header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    margin-bottom: 20px;
+}
+
+.footer_listItems{
+    padding: 0;
+}
+
+.footer li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    margin-bottom: 10px;
+}
+
+.footer_about{
+    margin-right: 100px;
+}
+
+.footer_contacts{
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.footer_lists{
+    display: flex;
+}
+
+.footer_lists ul{
+    margin-right: 50px;
+    margin-top: 0;
+} 
+
+.footer_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA; 
+    cursor: pointer;
+}
+
+.footer_logo_links{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_politics{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+/* BG */
+
+.bg_red_light{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.bg_purple_light{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    /* left: 602px; */
+    right: 30px;
+    top: -154px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.bg_red_one{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    /* left: 851px; */
+    right: 10px;
+    top: 547px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.bg_red_two{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);    
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.bg_purple{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* left: 868px; */
+    right: 30px;
+    top: -2px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.main_iridescentText_two{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-align: right;
+    z-index: -1;
+}
+
+img{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 900px;
+    }
+
+    .navbar_iconWrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container{
+        width: 700px;
+        position: relative;
+    }
+
+    .navbar_phone{
+        display: none;
+    }
+
+    .footer{
+        display: block;
+        height: fit-content;       
+        background: #1E1E1E;
+        padding-top: 40px;
+    }
+
+    .footer .footer_about{
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+
+    .footer .footer_menu{
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+
+    .footer_contacts{
+        position: relative;
+        text-align: left;  
+        margin-bottom: 70px;   
+        margin-left: 15px;  
+    }
+
+    .footer_politics{
+        margin-left: 15px;
+        position: relative;
+        text-align: left;      
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .main{
+        margin-top: 40px;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .main_intro{
+        width: 100%;
+    }
+    
+    .main_introText{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .main_introTextLogo{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .main_introSmallText{
+        font-size: 18px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .main_optionsIntro{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+
+    .main_optionBlocks{
+        margin: 0 auto;
+    }
+
+    .main_optionBlock_intro, 
+    .main_optionBlock_details{
+        text-align: center;
+    }
+
+    .main_button{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .container{
+        width: 550px;
+        position: relative;
+    }
+
+    .navbar .navbar_logo, .navbar .navbar_contacts{
+        display: none;
+    }   
+
+    .navbar{
+        height: 55px;
+    }
+
+    .navbar .navbar_links{
+        margin: 0 auto;
+    }
+
+    .navbar .navbar_linksItem{
+        line-height: 55px;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        width: 400px;
+        position: relative;
+    }
+
+    .bg_red_two{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .container{
+        width: 320px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container{
+        position: relative;
+        width: 320px;
+        margin-top: 0;
+        overflow-x: hidden;
+    }
+
+    .navbar .navbar_logo, .navbar .navbar_contacts{
+        display: none;
+    }   
+
+    .navbar{
+        background: #000;
+        height: 55px;
+    }
+
+    .navbar .navbar_links{
+        margin: 0 auto;
+    }
+
+    .navbar .navbar_linksItem{
+        line-height: 55px;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main{
+        margin-top: 40px;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .main_intro{
+        width: 100%;
+    }
+    
+    .main_introText{
+        font-size: 36px;
+        margin-left: 15px;
+    }
+
+    .main_introTextLogo{
+        font-size: 36px;
+        margin-left: 15px;
+    }
+
+    .main_introSmallText{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .main_optionBlocks, 
+    .main_optionBlock, 
+    .main_optionBlock_intro, 
+    .main_optionBlock_details, 
+    .main_button{
+        display: none;
+    }
+
+    .main_optionsIntro{
+        text-align: left;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        width: fit-content;
+    }
+
+    .main_optionBlock_mobile, .main_optionBlock_intro_mobile{
+        display: block;
+    }
+
+    .main_optionBlocks_mobile{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+
+    .main_optionBlock_mobile{
+        width: 140px;
+        height: 16px;
+        margin-bottom: 15px;
+        line-height: 16px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #E4E5EA;
+    }
+
+    .footer{
+        display: block;
+        height: fit-content;       
+        background: #1E1E1E;
+        padding-top: 40px;
+    }
+
+    .footer .footer_about{
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+
+    .footer .footer_menu{
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+
+    .footer_contacts{
+        position: relative;
+        text-align: left;  
+        margin-bottom: 70px;   
+        margin-left: 15px;  
+    }
+
+    .footer_politics{
+        margin-left: 15px;
+        position: relative;
+        text-align: left;      
+    }
+}
